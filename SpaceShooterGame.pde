@@ -1,3 +1,5 @@
+Boolean HomeScreenLayout = false;
+
 void settings(){
   fullScreen();
 }
