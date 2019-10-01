@@ -3,8 +3,8 @@ void settings(){
 }
 
 void setup(){
-  surface.setSize(150,150);
-  surface.setLocation((displayWidth/2)-75,(displayHeight/2)-75);
+  surface.setSize(1000,600);
+  surface.setLocation((displayWidth/2)-500,(displayHeight/2)-300);
 }
 
 void draw(){
