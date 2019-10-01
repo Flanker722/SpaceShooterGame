@@ -10,5 +10,8 @@ void setup(){
 void draw(){
 }
 
+class IntroAnimation {
+}
+
 class HomePageBackgroundAnimation {
 }
