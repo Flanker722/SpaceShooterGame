@@ -1,9 +1,14 @@
+void settings(){
+  fullScreen();
+}
+
 void setup(){
-  size(800,800);
+  surface.setSize(150,150);
+  surface.setLocation((displayWidth/2)-75,(displayHeight/2)-75);
 }
 
 void draw(){
-  PFont CreatedFont = createFont("CalcuText.otf",400);
-  textFont(CreatedFont, 400);
-  text("Hello", 100, 450);
+}
+
+class HomePageBackgroundAnimation {
 }
