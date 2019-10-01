@@ -10,6 +10,10 @@ void setup(){
 void draw(){
 }
 
+void HomeScreen(){
+  
+}
+
 class IntroAnimation {
 }
 
