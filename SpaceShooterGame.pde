@@ -1,3 +1,6 @@
+PImage MinimizeSymbolImgBtn;
+PImage FullScreenSymbolImgBtn;
+PImage CloseSymboImgBtn;
 Boolean HomeScreen = true;
 Boolean HomeScreenLayout = true;
 
@@ -70,6 +73,7 @@ void HomeScreen(){
     line(198,38,208,0);
     line(142,0,208,0);
     line(132,38,198,38);
+    
   }
   
 }
