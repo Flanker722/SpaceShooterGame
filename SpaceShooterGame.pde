@@ -1,3 +1,4 @@
+Boolean HomeScreen = true;
 Boolean HomeScreenLayout = true;
 
 void settings(){
@@ -14,6 +15,9 @@ void draw(){
 }
 
 void HomeScreen(){
+  
+  if(HomeScreen == true){
+  }
   
   if(HomeScreenLayout == true){
     fill(123);
@@ -36,6 +40,7 @@ void HomeScreen(){
     noStroke();
     rect(140, 150, 720, 220);
   }
+  
 }
 
 class IntroAnimation {
