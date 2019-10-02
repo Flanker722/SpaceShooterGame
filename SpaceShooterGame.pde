@@ -99,6 +99,12 @@ void HomeScreen(){
     noStroke();
     quad(514,380,800,380,800,440,488,440);
     
+    PFont CalcuText = createFont("CalcuText.otf", 500);
+    textFont(CalcuText, 100);
+    text("Just Another Random",150,240);
+    textFont(CalcuText, 220);
+    text("Space Game",80,340);
+    
   }
   
 }
