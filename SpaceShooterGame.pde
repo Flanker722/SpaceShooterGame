@@ -16,9 +16,6 @@ void draw(){
 
 void HomeScreen(){
   
-  if(HomeScreen == true){
-  }
-  
   if(HomeScreenLayout == true){
     fill(123);
     noStroke();
@@ -39,6 +36,20 @@ void HomeScreen(){
     fill(123);
     noStroke();
     rect(140, 150, 720, 220);
+  }
+  
+  if(HomeScreen == true){
+    fill(255,255,255);
+    noStroke();
+    quad(0,0,71,0,61,40,0,40);
+    
+    fill(240,240,240);
+    noStroke();
+    quad(70,0,141,0,131,40,60,40);
+    
+    fill(230,230,230);
+    noStroke();
+    quad(140,0,210,0,200,40,130,40);
   }
   
 }
