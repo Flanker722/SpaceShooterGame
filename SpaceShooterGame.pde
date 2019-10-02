@@ -91,19 +91,20 @@ void HomeScreen(){
     HomePageSettingImgBtn.resize(60,60);
     image(HomePageSettingImgBtn, 930,530);
     
-    fill(255);
+    fill(230);
     noStroke();
     quad(200,380,510,380,484,440,200,440);
     
-    fill(255);
+    fill(230);
     noStroke();
     quad(514,380,800,380,800,440,488,440);
     
+    fill(255);
     PFont CalcuText = createFont("CalcuText.otf", 500);
-    textFont(CalcuText, 100);
-    text("Just Another Random",150,240);
-    textFont(CalcuText, 220);
-    text("Space Game",80,340);
+    textFont(CalcuText, 80);
+    text("Let's Go",235,425);
+    textFont(CalcuText, 40);
+    text("Wait a second, what?",515,418);
     
   }
   
