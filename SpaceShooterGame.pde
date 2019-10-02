@@ -91,11 +91,11 @@ void HomeScreen(){
     HomePageSettingImgBtn.resize(60,60);
     image(HomePageSettingImgBtn, 930,530);
     
-    fill(230);
+    fill(252, 202, 0);
     noStroke();
     quad(200,380,510,380,484,440,200,440);
     
-    fill(230);
+    fill(252, 202, 0);
     noStroke();
     quad(514,380,800,380,800,440,488,440);
     
@@ -105,6 +105,17 @@ void HomeScreen(){
     text("Let's Go",235,425);
     textFont(CalcuText, 40);
     text("Wait a second, what?",515,418);
+    
+    strokeWeight(2);
+    stroke(180);
+    line(200,379,510,379);
+    line(514,379,799,379);
+    line(200,439,483,439);
+    line(200,379,200,439);
+    line(509,379,483,439);
+    line(515,379,489,439);
+    line(488,439,799,439);
+    line(799,379,799,439);
     
   }
   
