@@ -1,6 +1,6 @@
 PImage MinimizeSymbolImgBtn;
 PImage FullScreenSymbolImgBtn;
-PImage CloseSymboImgBtn;
+PImage CloseSymbolImgBtn;
 Boolean HomeScreen = true;
 Boolean HomeScreenLayout = true;
 
@@ -73,6 +73,20 @@ void HomeScreen(){
     line(198,38,208,0);
     line(142,0,208,0);
     line(132,38,198,38);
+    
+    MinimizeSymbolImgBtn = loadImage("MinimizeBtn.png");
+    MinimizeSymbolImgBtn.resize(38,6);
+    image(MinimizeSymbolImgBtn,84,16);
+    
+    FullScreenSymbolImgBtn = loadImage("FullScreenBtn.png");
+    FullScreenSymbolImgBtn.resize(27,27);
+    image(FullScreenSymbolImgBtn,158,6);
+    
+    CloseSymbolImgBtn = loadImage("CloseBtn.png");
+    CloseSymbolImgBtn.resize(27,28);
+    image(CloseSymbolImgBtn, 20, 6);
+    
+    //image();
     
   }
   
