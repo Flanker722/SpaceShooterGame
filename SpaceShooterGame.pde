@@ -91,6 +91,14 @@ void HomeScreen(){
     HomePageSettingImgBtn.resize(60,60);
     image(HomePageSettingImgBtn, 930,530);
     
+    fill(255);
+    noStroke();
+    quad(200,380,510,380,484,440,200,440);
+    
+    fill(255);
+    noStroke();
+    quad(514,380,800,380,800,440,488,440);
+    
   }
   
 }
