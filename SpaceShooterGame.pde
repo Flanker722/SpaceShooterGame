@@ -108,16 +108,7 @@ void HomeScreen(){
     textFont(CalcuText, 40);
     text("Wait a second, what?",515,418);
     
-    strokeWeight(2);
-    stroke(180);
-    line(200,379,510,379);
-    line(514,379,799,379);
-    line(200,439,483,439);
-    line(200,379,200,439);
-    line(509,380,483,439);
-    line(514,380,488,439);
-    line(488,439,799,439);
-    line(799,379,799,439);
+    quad(509,380,515,380,489,440,483,440);
     
   }
   
