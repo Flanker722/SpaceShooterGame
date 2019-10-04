@@ -2,6 +2,7 @@ PImage MinimizeSymbolImgBtn;
 PImage FullScreenSymbolImgBtn;
 PImage CloseSymbolImgBtn;
 PImage HomePageSettingImgBtn;
+PImage HomePageBackgroundImg;
 Boolean HomeScreen = true;
 Boolean HomeScreenLayout = true;
 
@@ -44,7 +45,9 @@ void HomeScreen(){
   
   if(HomeScreen == true){
     
-    background(0);
+    HomePageBackgroundImg = loadImage("SpaceGameBack.jpg");
+    HomePageBackgroundImg.resize(1066,600);
+    image(HomePageBackgroundImg,-20,0);
     
     fill(255,3,3);
     noStroke();
