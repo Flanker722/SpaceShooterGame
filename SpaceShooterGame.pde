@@ -3,11 +3,13 @@ PImage FullScreenSymbolImgBtn;
 PImage CloseSymbolImgBtn;
 PImage HomePageSettingImgBtn;
 PImage HomePageBackgroundImg;
+PImage MaincharacterWalkingForwardAnimationCurrentFrame;
 Boolean fullscreen = false;
 Boolean fullscreenmode = false;
-Boolean HomeScreen = true;
-Boolean HomeScreenButtons = true;
-Boolean HomeScreenLayout = true;
+Boolean HomeScreen = false;
+Boolean HomeScreenButtons = false;
+Boolean HomeScreenLayout = false;
+int MaincharacterPos;
 
 void settings(){
   fullScreen();
@@ -101,11 +103,11 @@ void HomeScreen(){
     
     fill(252, 202, 0);
     noStroke();
-    quad(200,380,510,380,484,440,200,440);
+    quad(200,380,495,380,495,440,200,440);
     
     fill(252, 202, 0);
     noStroke();
-    quad(514,380,800,380,800,440,488,440);
+    quad(505,380,800,380,800,440,505,440);
     
     fill(255);
     PFont CalcuText = createFont("CalcuText.otf", 500);
@@ -113,8 +115,6 @@ void HomeScreen(){
     text("Let's Go",235,425);
     textFont(CalcuText, 40);
     text("Wait a second, what?",515,418);
-    
-    quad(509,380,515,380,489,440,483,440);
     
     color FullscreenButtonClr1 = get(200,6);
     color CloseButtonClr1 = get(5,5);
@@ -230,6 +230,24 @@ void HomeScreen(){
 }
 
 class IntroAnimation {
+}
+
+class BackwardsWalk {
+}
+
+class JumpWalk {
+}
+
+class CrawlWalk{
+}
+
+class InspectItem{
+}
+
+class Inventory{
+}
+
+class Maincharacter{
 }
 
 class HomePageBackgroundAnimation {
